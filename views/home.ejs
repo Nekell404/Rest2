@@ -1,0 +1,150 @@
+<html><meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><link href="https://drive.google.com/uc?export=view&id=1mwMN8TMHSViKUy2FTWTMLLhD8PZAyWbh" rel="stylesheet" type="text/css" /><script src="https://semangat.htmlku.repl.co/script.js"></script>
+<head>
+<title>Script HTML Semangat Ulangannya!</title>
+<!-- 
+  Made with love by Rayys!
+
+     Blog: https://PalingIT.com
+     Instagram: @rayyarrr
+     TikTok: @rayy4r
+     Email: rayyar0703@gmail.com
+
+  Thanks to all <3
+-->
+</head>
+<style>
+:root {
+--warna-bg: rgba(0, 0, 0, .75); 
+--warna-teks: white;
+--warna-bingkai: rgba(255, 255, 255, .8);
+--bingkai: 10px;
+--gaya-font: 'Ubuntu', sans-serif;
+}
+</style>
+<body>
+	
+   <div id="bodyblur">
+     <!-- Wallpaper --><img src="https://telegra.ph/file/4bc93a24489d982332b45.jpg"/>
+   </div>
+
+   <div id='Content'>
+   	
+     <div id="suratin" onClick="memulai();audio.play();">
+       <!-- Surat --><img src="https://rayyscoding.github.io/envelope.png"/>
+     </div>
+     <p id="ket">Klik Suratnya!</p>
+   
+     <div><!-- Foto Akhir Edit di Bagian Bawah--><img src="" id="fotoakhir" /></div>
+     <div><blockquote id='bq'>
+       <p id="kalimat"></p>
+       <p id="kalimatc"></p>
+     </blockquote></div>
+   
+     <!-- Tombol Kirim Pesan -->
+     <div id="Tombol">
+       <a id="bklik" onClick="sjawab()">
+         <b>Klik Ini</b>
+       </a>
+     </div>
+     
+   </div>
+
+<!-- Jangan Edit Bagian Ini --><script>
+  function showDiv() {Content.style = "opacity:1;margin-top:15vh;";ket.style="margin-top:30px";}
+  function memulai(){suratin.style="transition:all 1s ease;transform:scale(.1);opacity:0";ket.style="transition:all 1s ease;transform:scale(.1);opacity:0";setTimeout(pesan,300)}
+  function kpemb() {suratin.style="display:none";ket.style="display:none";fotoakhir.style="display:inline-flex;transform:scale(1);";Content.style = "opacity:1;margin-top:2vh;";bq.style = "opacity:1;visibility:visible;margin-top:5px";setTimeout(ngetik,50)}
+  
+  function tombol(){Tombol.style="margin-top:15px;opacity:1;transform: scale(1);";ftom=1;} ftom=0; function fakhiran(){document.getElementById("akhiran").style = "display:inline-flex";}
+  const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageWidth: 100, imageHeight: 100,}); const swalst = Swal.mixin({allowOutsideClick: false, timer: 2500, showConfirmButton: false, timerProgressBar: true, imageWidth: 100, imageHeight: 100,}); const swalstwal = Swal.mixin({timer: 2000, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageWidth: 100, imageHeight: 100,}); const style = document.createElement('style'); var today = new Date();var dd = String(today.getDate()).padStart(2, '0');var mm = String(today.getMonth() + 1).padStart(2, '0');var yyyy = today.getFullYear();const monthNames = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];today = dd + ' ' + monthNames[today.getMonth()] + ' ' + yyyy;
+  function finalakhir(){bklik.innerHTML = "Kirim Pesan";ftom=2;otomatis();kalimatc.innerHTML = "Jawabanmu: " + pesanwhatsapp;} function sjawab(){if(ftom==1){jawab();} if(ftom==2){menuju();}}
+  function otomatis() {befanimkata();setTimeout(animkata,200);} function befanimkata(){kalimatc.style="transform:scale(.3);font-size:15px";} function animkata() {kalimatc.style="transform:scale(1);font-size:15px";}
+
+  function kemunculan(){otomatis();kalimatc.innerHTML = ktbwh1;setTimeout(kemunculan2,2200);} function kemunculan2(){otomatis();kalimatc.innerHTML = ktbwh2;setTimeout(kemunculan3,2200);} function kemunculan3(){otomatis();kalimatc.innerHTML = ktbwh3;setTimeout(kemunculan,2200);}
+  var aa=0,katangetik;function ngetik() {if(aa<katangetik.length){kalimat.innerHTML += katangetik.charAt(aa);aa++;setTimeout(ngetik,80);} if(aa==katangetik.length){kalimat.style="margin-bottom:30px";setTimeout(ngetik2,100);}}
+  var ai=0,katangetik2;function ngetik2() {if(ai<katangetik2.length){kalimatc.innerHTML += katangetik2.charAt(ai);ai++;setTimeout(ngetik2,150);} if(ai==katangetik2.length){setTimeout(tombol,500)}}
+</script> <!-- Sampai Sini -->
+
+<!-- Ganti Kata², Foto, Lagu di bawah ya
+1) Upload foto ke https://postimages.org
+     buat dapetin linknya
+2) Ganti Lagu Upload ke replit.com
+     atau bisa juga ke mailboxdrive.com -->
+
+<script type="text/javascript">
+       async function menuju(){await swals.fire('Kirim pesan ke WhatsApp aku, ya!');window.location = "https://wa.me/628388024064?text=" + pesanwhatsapp;}
+       async function jawab(){
+           var { value: jawaban } = await swals.fire({
+               title: 'Ketik Jawaban Kamu &#128073;&#128072;', 
+               input: 'text', allowOutsideClick: false, showCancelButton: false,
+           });
+           if(jawaban && jawaban.length < 16){
+           	window.jawaban = jawaban;
+               pesanwhatsapp = jawaban;
+               finalakhir();
+           } else {
+               await swals.fire('Ups!', 'Jawaban tidak boleh kosong atau lebih dari 15 karakter, ya!');jawab();
+           }
+       }
+
+      async function pertama(){
+         audio = new Audio('https://semangat.htmlku.repl.co/almostday.mp3');
+         fotoakhir.src = "https://feeldreams.github.io/tos.gif";
+         katangetik = "Semangat Ulangannya! 😆";
+         katangetik2 = "Hehe >.<";
+         
+         await swalstwal.fire('Tunggu');setTimeout(showDiv,100);
+       } pertama();
+       
+      async function pesan(){
+             	await swalst.fire({
+                  title: 'Hai Kamu! 🤭',
+                  imageUrl: 'https://feeldreams.github.io/cilukba.gif',
+                  });   	
+                 await swalst.fire({
+                  title: 'Aku Mau Bilang Sesuatu Nih 🤣',
+                  imageUrl: 'https://feeldreams.github.io/gigitin.gif',
+                  });
+                  await swalst.fire({
+                  title: 'Semangat Ulangannya ya! 🤩',
+                  imageUrl: 'https://feeldreams.github.io/0906-peacegoma.gif',
+                  });
+                  await swalst.fire({
+                  title: 'Oh Iya, Jangan Lupa Nyontek! 🤣',
+                  imageUrl: 'https://feeldreams.github.io/emawh.gif',
+                  });
+                  await swalst.fire({
+                  title: 'Hahahaha Candaa! 🤣',
+                  imageUrl: 'https://feeldreams.github.io/gumush.gif',
+                  });                  
+                  await swalst.fire({
+                  title: 'Belajar yang Bener, Jangan Main HP Terus! 😡',
+                  imageUrl: 'https://i.ibb.co/hBJWz6S/tinju.gif',
+                  });
+                  await swalst.fire({
+                  title: 'Jangan Main Game Terus! 😏',
+                  imageUrl: 'https://i.ibb.co/hBJWz6S/tinju.gif',
+                  });
+                  await swalst.fire({
+                  title: 'Jangan Nonton Anime/Film Mulu! 🙄',
+                  imageUrl: 'https://feeldreams.github.io/peach6.gif',
+                  });
+                  await swalst.fire({
+                  title: 'Utamakan Belajar-Belajar Dan Belajar! 😤',
+                  imageUrl: 'https://feeldreams.github.io/emawh.gif',
+                  });
+                  await swalst.fire({
+                  title: 'Sisa 1 Hari Lagi Ulangan nyaa! 😭',
+                  imageUrl: 'https://feeldreams.github.io/0906-peacegoma.gif',
+                  });
+                  await swalst.fire({
+                  title: 'Moga Dapet Nilai yang Baik! ☺️',
+                  imageUrl: 'https://feeldreams.github.io/bber.gif',
+                  });
+                  
+                 
+                      kpemb();
+       }
+</script>
+</body>
+</html>

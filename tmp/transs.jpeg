@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta property="og:title" content="Some Random Api &bullet; 404" />
+    <meta property="og:type" content="website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://i.some-random-api.ml/logo.png">
+    <title>Some Random Api &bull; 404</title>
+</head>
+
+<style>
+    body {
+        color: white;
+        min-height: 100vh;
+        overflow: hidden;
+    }
+
+    #line {
+        margin: 0px auto;
+        width: 50vw;
+    }
+
+
+    .container {
+        text-align: center;
+        display: block;
+        position: absolute;
+        width: 80%;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%, -30%);
+    }
+
+    .is-large-fuck {
+        font-size: 24vw;
+        height: 28vw;
+    }
+
+    .size-custom-1 {
+        margin-top: 2vw;
+        display: block;
+        letter-spacing: 12px;
+        font-size: 8vw;
+        line-height: 80%;
+    }
+
+    .size-custom-2 {
+        text-align: center;
+        display: block;
+        font-size: 20px;
+    }
+
+    .container .button {
+        width: 80vw;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+
+    .page-footer {
+        margin-top: 100%;
+        width: 100%;
+        display: block;
+        background-color: #007481;
+        position: absolute;
+        font-size: 16px;
+        bottom: 0;
+        left: 0;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        #text {
+            width: 32vw;
+        }
+
+        .is-large-fuck {
+            font-size: 18vw;
+            height: 22vw;
+        }
+
+        .size-custom-1 {
+            margin-top: 10px;
+            font-size: 4vw;
+        }
+
+        .container .button {
+            width: 340px;
+        }
+    }
+</style>
+
+<body class="has-navbar-fixed-top">
+    <div class="header">
+        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="https://some-random-api.ml">
+            <img src="https://i.some-random-api.ml/logo.png" width="28" height="28">
+            <a class="navbar-item has-text-weight-semibold" style="margin-left: -15px;">Some Random Api</a>
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+            data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="nav" class="navbar-menu">
+        <div class="navbar-start">
+
+        </div>
+
+        <div class="navbar-end">
+            <a class="navbar-item" href="/">
+                Home
+            </a>
+            <a class="navbar-item" href="/endpoints">
+                Endpoints
+            </a>
+            <a class="navbar-item" href="/docs">
+                Documentation
+            </a>
+            <a class="navbar-item" href="/discord">
+                Discord
+            </a>
+            
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a style="color: white;" class="button border" onclick="window.location.href = `/login?redirect=${encodeURIComponent(btoa(window.location.pathname))}`">
+                            Log in
+                        </a>
+                    </div>
+                </div>
+                
+                    </div>
+        </div>
+</nav>
+
+<script src="/client.js"></script>
+    </div>
+
+    <div class="container">
+        <div class="is-large-fuck">404</div>
+        <hr id="line">
+        <div class="size-custom-1">PAGE</div>
+        <div class="size-custom-2">WAS NOT FOUND</div>
+        <a class="button is-custom-1" href="/">Home</a>
+    </div>
+    <footer class="page-footer">
+  <a class="copyright" style="color: #ffffff;">© 2018-2022 Some Random Api</a>
+</footer>
+
+</body>
+
+
+</html>

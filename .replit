@@ -1,0 +1,5 @@
+run = "pm2 start index.js --attach"
+
+[[ports]]
+localPort = 8080
+externalPort = 80

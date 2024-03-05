@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="https://telegra.ph/file/f17f2a1ef76c43abd26f7.png">
+  <title>
+    NEKELL - API
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <!-- Nucleo Icons -->
+  <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="../assets/css/black-dashboard.css" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="../assets/demo/demo.css" rel="stylesheet" />
+  <link href="../assets/css/simple.css" rel="stylesheet" />
+  <audio autoplay="autoplay" hidden="hidden" src="https://g.top4top.io/m_2349enk3v0.mp3"></audio>
+</head>
+
+
+
+
+<body class="">
+  <div class="wrapper">
+    <div class="sidebar">
+      <div class="sidebar-wrapper">
+        <div class="logo text-center">
+          <a href="/docs" class="simple-text logo-normal" style="font-size: large;">
+                     NEKELL API
+                    </a>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="/docs">
+              <i class="tim-icons icon-chart-pie-36"></i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li>
+            <a href="/islami">
+              <i class="tim-icons icon-bulb-63"></i>
+              <p>Islami</p>
+            </a>
+          </li>
+          <li>
+          <li>
+            <a href="/downloader">
+              <i class="tim-icons icon-cloud-download-93"></i>
+              <p>Downloader</p>
+            </a>
+          </li>
+          <li>
+            <a href="/searching">
+              <i class="tim-icons icon-zoom-split"></i>
+              <p>Searching</p>
+            </a>
+          </li>
+          <li>
+            <a href="/fun">
+              <i class="tim-icons icon-satisfied"></i>
+              <p>Fun</p>
+            </a>
+          </li>
+          <li>
+            <a href="/wallpaper">
+              <i class="tim-icons icon-image-02"></i>
+              <p>Wallpaper Image</p>
+            </a>
+          </li>
+          <li>
+            <a href="/cecan">
+              <i class="tim-icons icon-align-center"></i>
+              <p>Cecan</p>
+            </a>
+          </li>
+          <li>
+            <a href="/asupannsfw">
+              <i class="tim-icons icon-video-66"></i>
+              <p>Asupan & Nsfw</p>
+            </a>
+          </li>
+          <li class="active">
+            <a href="/canvas">
+              <i class="tim-icons icon-palette"></i>
+              <p>Canvas</p>
+            </a>
+          </li>
+          <li>
+            <a href="/stalking">
+              <i class="tim-icons icon-book-bookmark"></i>
+              <p>Stalking</p>
+            </a>
+          </li>
+          <li>
+            <a href="/textpro">
+              <i class="tim-icons icon-planet"></i>
+              <p>TextProMe</p>
+            </a>
+          </li>
+        
+          
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-toggle d-inline">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+            <a class="navbar-brand" href="javascript:void(0)">Canvas</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav ml-auto">
+              
+              <li class="dropdown nav-item">
+                <a href="javascript:void(0)" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                  <div class="notification d-none d-lg-block d-xl-block"></div>
+                  <i class="tim-icons icon-bell-55"></i>
+                  <p class="d-lg-none">
+                    Notifications
+                  </p>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-right dropdown-navbar">
+                  <li class="nav-link"><a href="#" class="nav-item dropdown-item">Halo Everyonel</a></li>
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Gunakan Apikey Dengan Bijak Yaa</a></li>
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Jangan Lupa Donasinya</a></li>
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Jika Ingin Custom Apikey Chat Owner</a></li>
+                </ul>
+              </li>
+               
+                  
+                
+              <li class="dropdown nav-item">
+                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                  <div class="photo">
+                    <img src="https://telegra.ph/file/f17f2a1ef76c43abd26f7.png" alt="Profile Photo">
+                  </div>
+                  <b class="caret d-none d-lg-block d-xl-block"></b>
+                  <p class="d-lg-none">
+                    Info~
+                  </p>
+                </a>
+                <ul class="dropdown-menu dropdown-navbar">
+                  <li class="nav-link"><a href="/profile" class="nav-item dropdown-item">Profile</a></li>
+                  <li class="nav-link"><a href="/game" class="nav-item dropdown-item">Web Game</a></li>
+                  <li class="nav-link"><a href="/about" class="nav-item dropdown-item">About Web</a></li>
+                </ul>
+              </li>
+              <li class="separator d-lg-none"></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="modal modal-search fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="SEARCH">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <i class="tim-icons icon-simple-remove"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Navbar -->
+      <div class="content">
+        <div class="row">
+            
+            <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Canvas Documentation</h4>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead class="text-primary">
+                      <tr>
+                        <th>
+                          Feature
+                        </th>
+                        <th>
+                          Method
+                        </th>
+                        <th>
+                        Description
+                        </th>
+                        <th>
+                          Parameter
+                        </th>
+                        <th>
+                        	Status
+                        </th>
+                        <th class="text-center">
+                          Action
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    	
+                      
+                      <tr>
+                        <td>
+                          Welcome
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Welcomer Canvas
+                        </td>
+                        <td class="text-center">
+                         name, mem, gcname, picurl, bgurl
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/welcome?nama=Nekellalwayslus&namaGb=Beta Bot&pepeGb=https://l.top4top.io/p_2271zprr10.jpg&totalMem=100000&pepeUser=https://i.ibb.co/7KD9BSq/20210811-103425.jpg&bege=https://l.top4top.io/p_2271zprr10.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Good Bye
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        Good Bye Canvas
+                        	</td>
+                        <td class="text-center">
+                          name, mem, gcname, picurl, bgurl
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/goodbye?nama=Nekellalwayslus&namaGb=Beta Bot&pepeGb=https://l.top4top.io/p_2271zprr10.jpg&totalMem=100000&pepeUser=https://i.ibb.co/7KD9BSq/20210811-103425.jpg&bege=https://l.top4top.io/p_2271zprr10.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>                          
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Verivication
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Verivication Canvas
+                        </td>
+                        <td class="text-center">
+                         name, mem, gcname, picurl, bgurl
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/verivikasi?nama=Nekellalwayslus&namaGb=Beta Bot&pepeGb=https://l.top4top.io/p_2271zprr10.jpg&totalMem=100000&pepeUser=https://i.ibb.co/7KD9BSq/20210811-103425.jpg&bege=https://l.top4top.io/p_2271zprr10.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Promote
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Promote Canvas
+                        </td>
+                        <td class="text-center">
+                         name, mem, gcname, picurl, bgurl
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/promote?nama=Nekellalwayslus&namaGb=Beta Bot&pepeGb=https://l.top4top.io/p_2271zprr10.jpg&totalMem=100000&pepeUser=https://i.ibb.co/7KD9BSq/20210811-103425.jpg&bege=https://l.top4top.io/p_2271zprr10.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Demote
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Demote Canvas
+                        </td>
+                        <td class="text-center">
+                         name, mem, gcname, picurl, bgurl
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/demote?nama=Nekellalwayslus&namaGb=Beta Bot&pepeGb=https://l.top4top.io/p_2271zprr10.jpg&totalMem=100000&pepeUser=https://i.ibb.co/7KD9BSq/20210811-103425.jpg&bege=https://l.top4top.io/p_2271zprr10.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          Rank Card
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Rank Card Canvas
+                        	</td>
+                        <td class="text-center">
+                         name, avatar, bgurl, needexp, curxp, level, logorank
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/rankcard?profile=https://telegra.ph/file/196ebf08936889481210a.jpg&name=Nekellalwayslus&bege=https://i.ibb.co/4YBNyvP/images-76.jpg&needexp=1000&curxp=900&level=10&logorank=https://i.ibb.co/Wn9cvnv/FABLED.png&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Level Up
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Level Up Canvas
+                        	</td>
+                        <td class="text-center">
+                          avatar
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/levelup?avatar=https://telegra.ph/file/f17f2a1ef76c43abd26f7.png&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Wasted
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                      Wasted Bounty Hunter Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/wasted?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Passed
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Passed Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/passed?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Trigger
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Trigger Gif Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/trigger?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Meme
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Meme Canvas
+                        	</td>
+                        <td class="text-center">
+                          url,text,text2
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/meme?&text=Yes&text2=No&apikey=Nekellalwayslus&url=https://api.memegen.link/images/ds/high_quality/small_file.jpg" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Gay
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Gay Effect Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/gay?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Glass
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Glass Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/glass?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Jail
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Jail Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/jail?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Comrade
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Comrade Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/comrade?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Grey
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Grey Effect Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/greyscale?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Invert
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Invert Effect Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/invert?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                        Invert  Grey Scale
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                          Invert Grey Scale Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/invertgreyscale?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Sepia
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Sepia Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/sepia?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Delete
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Delete Effect Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/delete?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          ThresHold
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Threshold Effect Canvas
+                        	</td>
+                        <td class="text-center">
+                          color
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/threshold?url=https://telegra.ph/file/196ebf08936889481210a.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                     <tr>
+                        <td>
+                          Red
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Red Effect Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/red?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Green
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Green Efect Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/green?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                       <tr>
+                        <td>
+                          Pixelate
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Pixelate Efect Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/pixelate?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          Bloo
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Bloo Efect  Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/bloo?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                       <tr>
+                        <td>
+                          Blur
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Blur Efect Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/blur?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          Blurple
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                         Blurple Effect Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/blurple?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Blurple2
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Blurple Vers2 Effect Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/blurple2?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Gfx1
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Gfx1 Canvas
+                        	</td>
+                        <td class="text-center">
+                          nama
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/gfx1?nama=Lann&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Gfx2
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Gfx2 Canvas
+                        	</td>
+                        <td class="text-center">
+                          nama
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/gfx2?nama=Lann&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Gfx3
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Gfx3 Canvas
+                        	</td>
+                        <td class="text-center">
+                          Text1 & Text2
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/gfx3?text=Lann&text2=ofc&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Gfx4
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Gfx4 Canvas
+                        	</td>
+                        <td class="text-center">
+                          Text1 & Text2
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/gfx4?text=Lann&text2=Ofc&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                       <tr>
+                        <td>
+                          Gfx5
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Gfx5 Canvas
+                        	</td>
+                        <td class="text-center">
+                          nama
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/gfx5?nama=Lann&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                         Stupid
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                         Stupid Canvas
+                        	</td>
+                        <td class="text-center">
+                          Url & Text Dog
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/stupid?url=https://telegra.ph/file/196ebf08936889481210a.jpg&dog=Bangsat Luu&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                       <tr>
+                        <td>
+                         Youtube Comment
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                         Youtube Comment Canvas
+                        	</td>
+                        <td class="text-center">
+                          Url & Username & Comment
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/yt-comment?url=https://telegra.ph/file/196ebf08936889481210a.jpg&username=Lann&comment=Bagi Sc Rest Api Bang&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                         Tweet Comment
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                         Tweet Comment Canvas
+                        	</td>
+                        <td class="text-center">
+                          Url & Username & Comment & Displayname
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/tweet?url=https://telegra.ph/file/196ebf08936889481210a.jpg&displayname=I'm Lann&comment=Bang Bagi Sc Rest Api&username=Lann&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          Gura
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Gura Canvas
+                        	</td>
+                        <td class="text-center">
+                          nama
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/gura?nama=Lann&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                       <tr>
+                        <td>
+                          Simpcard
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Simpcard Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/simpcard?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                       <tr>
+                        <td>
+                          Horny
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Horny Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/horny?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                       <tr>
+                        <td>
+                          Lolice (Loli Police)
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Lolice Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/lolice?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                       <tr>
+                        <td>
+                          Lgbt
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Lgbt Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/lgbt?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                       <tr>
+                        <td>
+                          Pansexual
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Pansexual Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/pansexual?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                       <tr>
+                        <td>
+                          NonBinary
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	NonBinary Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/nonbinary?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                       <tr>
+                        <td>
+                          Lesbian
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Lesbian Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/lesbian?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                       <tr>
+                        <td>
+                          Trans
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Trans Canvas
+                        	</td>
+                        <td class="text-center">
+                          url
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/transs?url=https://i.ibb.co/cQ65zyG/logo.jpg&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          TTP
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Text To Picture Canvas
+                        	</td>
+                        <td class="text-center">
+                          text
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/ttp?text=Hallo&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                      
+                      <tr>
+                        <td>
+                          ATTP
+                        </td>
+                        <td class="text-center">
+                          GET
+                        </td>
+                        <td>
+                        	Text To Picture Canvas
+                        	</td>
+                        <td class="text-center">
+                          text
+                        </td>
+                        <td>      	
+                        	<span class="badge badge-success">Active</span>
+                        	</td>
+                        <td class="text-center">
+                        	<a type="button" href="/api/canvas/attp?text=Hallo&apikey=Nekellalwayslus" class="text-success btn-sm btn-icon" rel="nofollow" target="_blank"><i class="tim-icons icon-triangle-right-17"></i></a>             
+                        </td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+          </div>
+        </div>
+     
+        
+          </div>
+   
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  <!--   Core JS Files   -->
+  <script src="../assets/js/core/jquery.min.js"></script>
+  <script src="../assets/js/core/popper.min.js"></script>
+  <script src="../assets/js/core/bootstrap.min.js"></script>
+  <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!--  Google Maps Plugin    -->
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <!-- Chart JS -->
+  <script src="../assets/js/plugins/chartjs.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="../assets/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="../assets/js/black-dashboard.min.js?v=1.0.0"></script><!-- Black Dashboard DEMO methods, don't include it in your project! -->
+
+  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+  <script>
+    window.TrackJS &&
+      TrackJS.install({
+        token: "ee6fab19c5a04ac1a32a645abde4613a",
+        application: "black-dashboard-free"
+      });
+  </script>
+  <script> 
+  	$.getJSON("https://api.countapi.xyz/hit/myhuman.herokuapp.com/visits",
+	function(data) {
+	$("#visitor").html(data.value);
+	})
+	</script>
+	<script>
+		
+		$.getJSON("https://api.ipify.org?format=json",
+		function(data) {
+			$("#ipaddres").html(data.ip)
+			})
+			</script>
+</body>
+
+</html>
